@@ -1,5 +1,5 @@
 <?php
-        $conn = new mysqli('localhost', 'root', 'ngocanh1999', 'phongkhach');
+        $conn = new mysqli('localhost', 'root', 'password', 'dbname');
         $maloai = $_POST['maloai'];
         $maphong = $_POST['maphong'];
         $sophong = $_POST['sophong'];
